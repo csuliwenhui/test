@@ -9,6 +9,6 @@ public class ServiceDelegate implements Service {
     public String helloworld(String name){
 
         // Do Some Magic Here!
-        return "hi, " + name;
+        return "Hi, " + name;
     }
 }
