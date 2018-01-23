@@ -16,7 +16,7 @@ public class TestService {
 
         final String NAME = "renhui";
         
-        String expactReturnValue = "Hi, " + NAME; // You should put the expect String type value here.
+        String expactReturnValue = NAME; // You should put the expect String type value here.
 
         String returnValue = serviceDelegate.helloworld(NAME);
 
